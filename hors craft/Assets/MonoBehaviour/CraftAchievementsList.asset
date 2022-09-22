@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a48ae494e54423ff693d84b59c1ea82, type: 3}
+  m_Name: "CraftAchievementsList"
+  m_EditorClassIdentifier: 
+  availableAchievements:
+  - {fileID: 11400000, guid: 5dad715c871f498289b6e6126fc9f2b5, type: 2}
+  - {fileID: 11400000, guid: 1324892d00cb4b8783dd8d36a276244f, type: 2}
+  - {fileID: 11400000, guid: 5ccd1747589c43bf84de8fe3476528d5, type: 2}
+  - {fileID: 11400000, guid: 311ccfd78d554ca9a0de947d67460557, type: 2}
+  - {fileID: 11400000, guid: 77010fb423be4909af44203d1cc6b942, type: 2}
+  - {fileID: 11400000, guid: 6bf3424f4a844f7f96dfac751d5dc184, type: 2}
+  - {fileID: 11400000, guid: a65467a881f9431ba2d03e279e28981a, type: 2}
+  - {fileID: 11400000, guid: 177e5c19376b4de294ef3d9bc9b8b0c3, type: 2}
+  - {fileID: 11400000, guid: 1b20e67ba911420bab6aa1f05ae8c9cc, type: 2}
+  - {fileID: 11400000, guid: 5834650a8c254365b1f49b5e084afb84, type: 2}
+  - {fileID: 11400000, guid: c9c52b23bde045569c93ef002cf8ce6c, type: 2}
+  - {fileID: 11400000, guid: 6833d52e7ad34bfba861d05d898f2130, type: 2}
+  - {fileID: 11400000, guid: 5510020a75104b03a438142eced4c4dc, type: 2}
+  - {fileID: 11400000, guid: 883fd6c3550645b9a05b9697bfc27609, type: 2}
+  - {fileID: 11400000, guid: 11ca6893af974fdf97c28ef7474f775f, type: 2}
+  - {fileID: 11400000, guid: f8f614bb97fc4a918c65c35de8da78d3, type: 2}
+  - {fileID: 11400000, guid: 089e9535e3e747e986b874c31f97f31f, type: 2}
+  - {fileID: 11400000, guid: df60325a03c94eb78a709f836209cf46, type: 2}
+  - {fileID: 11400000, guid: 44e5077da34845578babbb41dc209b63, type: 2}
+  - {fileID: 11400000, guid: fa22a71166a4497fa79a55e43bcb1486, type: 2}
+  - {fileID: 11400000, guid: 30397a902bd24796aec21f933590bf55, type: 2}
+  - {fileID: 11400000, guid: 6045c5f49cf947838a15a8dea5491eea, type: 2}
+  - {fileID: 11400000, guid: d91651d9326445498215445e63ab3690, type: 2}

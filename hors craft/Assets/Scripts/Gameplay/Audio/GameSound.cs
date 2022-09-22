@@ -1,0 +1,39 @@
+// DecompilerFi decompiler from Assembly-CSharp.dll class: Gameplay.Audio.GameSound
+namespace Gameplay.Audio
+{
+	public enum GameSound
+	{
+		BUTTON_CLICK,
+		WINDOW_SLIDE_IN,
+		BLOCK_PLACE,
+		BLOCK_DESTROY,
+		JUMP,
+		ARROW_COLLECT,
+		CREEPER_EXPLODE,
+		CREEPER_HIT,
+		HP_COLLECT,
+		PLAYER_DIE,
+		SPIDER_HIT,
+		ZOMBIE_HIT,
+		HIT_ANIMAL,
+		HIT_DIRT,
+		BOW_ARM,
+		BOW_DISARM,
+		BOW_SHOOT,
+		BOW_RELOAD,
+		ZOMBIE_SOUND,
+		CREEPER_SOUND,
+		SPIDER_SOUND,
+		RESOURCE_PICKUP,
+		DANCE_GOOD,
+		DANCE_WRONG,
+		DANCE_CHEER,
+		DUCK_SOUND,
+		RIFLE_SHOOT,
+		ENEMY_SHOOT,
+		WALK,
+		SWIM,
+		FLY,
+		DAILY_REWARD
+	}
+}

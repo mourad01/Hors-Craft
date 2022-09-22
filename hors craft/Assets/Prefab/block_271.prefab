@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1790914196471589298
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790914196421257306}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3894826, y: 1.297787, z: 0.6052806}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1790914196421257306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790914196471589298}
+  - component: {fileID: 1790914198317083584}
+  - component: {fileID: 1790914198317083692}
+  m_Layer: 0
+  m_Name: "block_271"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1790914198317083584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790914196421257306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1882d4374a43b4d542c02201df383e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  editorOnly: 0
+  renderCustomSprite: 0
+  useCustomSprite: 1
+  blockCategory: 4
+  rarityCategory: 1
+  priority: 31
+  isItSomeKindOfGrass: 0
+  VName: "tv"
+  VMesh: {fileID: 4300000, guid: 010732c0b67d43c8b727501c3fdf2c49, type: 2}
+  VColliderMesh: {fileID: 0}
+  VCustomMesh: 1
+  VCustomSides: 0
+  VTexture:
+  - {x: 0, y: 0}
+  VTransparency: 1
+  VColliderType: 0
+  VColliderHeight: 1
+  VMaterial: {fileID: 2100000, guid: 2ec1bc6f59d24c1ebecf136020961b76, type: 2}
+  VRotation: 0
+  isMob: 0
+  isometricPlacment: 0
+  rotateDuringRender: 0
+  vTextureNames: []
+  voxelSprite: {fileID: 21300000, guid: b05f1b31153b4414a228ceef71beba7f, type: 3}
+  isThatFlower: 0
+  moveUvsByVTexture: 0
+  isPlacingInWater: 0
+  index: 372
+  hasStartBehaviour: 0
+  canRotate: 1
+  materialName: "simsMaterial"
+--- !u!114 &1790914198317083692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790914196421257306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2ce79b6a6c6fe2d941c967dbac2bce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

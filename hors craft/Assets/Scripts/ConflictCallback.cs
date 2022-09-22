@@ -1,0 +1,5 @@
+// DecompilerFi decompiler from Assembly-CSharp.dll class: ConflictCallback
+namespace GooglePlayGames.BasicApi.SavedGame
+{
+	public delegate void ConflictCallback(IConflictResolver resolver, ISavedGameMetadata original, byte[] originalData, ISavedGameMetadata unmerged, byte[] unmergedData);
+}

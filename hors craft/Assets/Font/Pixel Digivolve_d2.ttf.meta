@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 3aac8d0caee24be0895075c4df428d8b
+timeCreated: 1663675183
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: "Pixel Digivolve"
+  fontNames:
+  - Pixel Digivolve
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

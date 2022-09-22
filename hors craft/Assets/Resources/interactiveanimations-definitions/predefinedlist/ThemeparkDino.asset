@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10c84c0ff3f0ec14e0fa7af7635702e6, type: 3}
+  m_Name: "ThemeparkDino"
+  m_EditorClassIdentifier: 
+  description: 
+  animationIndex: 0
+  chanceToPlay: 0
+  timePlaying: 8
+  timeDelay: 5
+  clips:
+  - {fileID: 7400000, guid: b3ae4c370a534e3cb5c8cd09d149cd4e, type: 2}
+  - {fileID: 7400000, guid: 6ebc1aca0ef044bf98628612506f43a4, type: 2}
+  - {fileID: 7400000, guid: f1fb677c8bde4af693b4cb16f2694395, type: 2}

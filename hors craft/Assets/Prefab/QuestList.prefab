@@ -1,0 +1,1393 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1790914196471593069
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790914196421259037}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -23.31065, y: 17.6734, z: 66.59883}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1790914196421259037
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790914196471593069}
+  - component: {fileID: 1790914198317094641}
+  m_Layer: 0
+  m_Name: "QuestList"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1790914198317094641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790914196421259037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 329258bb8f02688b620b67b2a75da568, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quests:
+  - id: 0
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 50
+    claimAble: 0
+    paramatersInt: 00000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 1
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 50
+    claimAble: 0
+    paramatersInt: 01000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 2
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 50
+    claimAble: 0
+    paramatersInt: 02000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 3
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 50
+    claimAble: 0
+    paramatersInt: 03000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 4
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 50
+    claimAble: 0
+    paramatersInt: 04000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 5
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 50
+    claimAble: 0
+    paramatersInt: 05000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 6
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 12
+    claimAble: 0
+    paramatersInt: 07000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 7
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 10
+    claimAble: 0
+    paramatersInt: 06000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 8
+    type: 3
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 10
+    claimAble: 0
+    paramatersInt: 00000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 9
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 30
+    claimAble: 0
+    paramatersInt: 08000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 10
+    type: 0
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 1
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 11
+    type: 7
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 5
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 12
+    type: 6
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 5000
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 13
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 10
+    claimAble: 0
+    paramatersInt: 09000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 14
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 30
+    claimAble: 0
+    paramatersInt: 08000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 15
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 40
+    claimAble: 0
+    paramatersInt: 08000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 16
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 1
+    claimAble: 0
+    paramatersInt: 00000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 17
+    type: 3
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 10
+    claimAble: 0
+    paramatersInt: 00000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 18
+    type: 6
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 2000
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 19
+    type: 11
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 20
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 20
+    type: 3
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 4
+    claimAble: 0
+    paramatersInt: 00000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 21
+    type: 3
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 4
+    claimAble: 0
+    paramatersInt: 00000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 22
+    type: 3
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 4
+    claimAble: 0
+    paramatersInt: 00000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 23
+    type: 3
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 4
+    claimAble: 0
+    paramatersInt: 00000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 24
+    type: 3
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 4
+    claimAble: 0
+    paramatersInt: 00000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 25
+    type: 3
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 4
+    claimAble: 0
+    paramatersInt: 00000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 26
+    type: 3
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 10
+    claimAble: 0
+    paramatersInt: 00000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 27
+    type: 3
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 10
+    claimAble: 0
+    paramatersInt: 00000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 28
+    type: 3
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 10
+    claimAble: 0
+    paramatersInt: 00000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 29
+    type: 3
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 10
+    claimAble: 0
+    paramatersInt: 00000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 30
+    type: 3
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 10
+    claimAble: 0
+    paramatersInt: 00000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 31
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 10
+    claimAble: 0
+    paramatersInt: 00000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 32
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 10
+    claimAble: 0
+    paramatersInt: 09000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 33
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 5
+    claimAble: 0
+    paramatersInt: 04000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 34
+    type: 3
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 20
+    claimAble: 0
+    paramatersInt: 78000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 35
+    type: 7
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 3
+    claimAble: 0
+    paramatersInt: 
+    paramatersString:
+    - 
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 36
+    type: 10
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 100
+    claimAble: 0
+    paramatersInt: 00000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 37
+    type: 0
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 1
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 38
+    type: 7
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 2
+    claimAble: 0
+    paramatersInt: 
+    paramatersString:
+    - 
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 39
+    type: 7
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 2
+    claimAble: 0
+    paramatersInt: 
+    paramatersString:
+    - 
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 40
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 10
+    claimAble: 0
+    paramatersInt: 0A000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 41
+    type: 8
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 50
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 42
+    type: 4
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 2000
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 43
+    type: 5
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 2000
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 44
+    type: 0
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 42
+    claimAble: 0
+    paramatersInt: 00000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 45
+    type: 0
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 42
+    claimAble: 0
+    paramatersInt: 00000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 46
+    type: 0
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 42
+    claimAble: 0
+    paramatersInt: 00000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 47
+    type: 0
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 42
+    claimAble: 0
+    paramatersInt: 00000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 48
+    type: 0
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 42
+    claimAble: 0
+    paramatersInt: 00000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 49
+    type: 0
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 42
+    claimAble: 0
+    paramatersInt: 00000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 50
+    type: 0
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 42
+    claimAble: 0
+    paramatersInt: 00000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 51
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 10
+    claimAble: 0
+    paramatersInt: 00000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 52
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 10
+    claimAble: 0
+    paramatersInt: 08000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 53
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 20
+    claimAble: 0
+    paramatersInt: 00000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 54
+    type: 13
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 35
+    claimAble: 0
+    paramatersInt: 00000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 55
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 10
+    claimAble: 0
+    paramatersInt: 02000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 56
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 10
+    claimAble: 0
+    paramatersInt: 01000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 57
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 10
+    claimAble: 0
+    paramatersInt: 04000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 58
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 10
+    claimAble: 0
+    paramatersInt: 03000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 59
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 10
+    claimAble: 0
+    paramatersInt: 05000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 60
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 20
+    claimAble: 0
+    paramatersInt: 02000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 61
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 20
+    claimAble: 0
+    paramatersInt: 01000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 62
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 20
+    claimAble: 0
+    paramatersInt: 04000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 63
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 20
+    claimAble: 0
+    paramatersInt: 03000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 64
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 20
+    claimAble: 0
+    paramatersInt: 05000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 65
+    type: 2
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 10
+    claimAble: 0
+    paramatersInt: 07000000
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 66
+    type: 14
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 10000
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 67
+    type: 15
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 3
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 68
+    type: 15
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 9
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 69
+    type: 15
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 12
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 70
+    type: 15
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 20
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 71
+    type: 15
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 30
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 72
+    type: 15
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 45
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 73
+    type: 15
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 66
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 74
+    type: 15
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 80
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 75
+    type: 16
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 10
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 76
+    type: 16
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 50
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 77
+    type: 17
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 1
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 78
+    type: 16
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 100
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 79
+    type: 18
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 10
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 80
+    type: 19
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 15
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 81
+    type: 20
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 1
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 82
+    type: 21
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 1
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 83
+    type: 22
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 1
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 84
+    type: 23
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 1
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 85
+    type: 24
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 1
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 86
+    type: 25
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 1
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 87
+    type: 26
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 1000
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 88
+    type: 26
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 1500
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 89
+    type: 26
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 2000
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 90
+    type: 26
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 3000
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 91
+    type: 29
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 20
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 92
+    type: 30
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 30
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 93
+    type: 31
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 50
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 94
+    type: 41
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 20
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 95
+    type: 42
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 30
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 96
+    type: 43
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 50
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 97
+    type: 44
+    prize: 25
+    questQueueNumber: 0
+    stepsNeeded: 3
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 98
+    type: 44
+    prize: 40
+    questQueueNumber: 0
+    stepsNeeded: 4
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 99
+    type: 44
+    prize: 50
+    questQueueNumber: 0
+    stepsNeeded: 6
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 100
+    type: 44
+    prize: 55
+    questQueueNumber: 0
+    stepsNeeded: 7
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 101
+    type: 44
+    prize: 60
+    questQueueNumber: 0
+    stepsNeeded: 9
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 102
+    type: 44
+    prize: 65
+    questQueueNumber: 0
+    stepsNeeded: 10
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 103
+    type: 44
+    prize: 80
+    questQueueNumber: 0
+    stepsNeeded: 12
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 104
+    type: 44
+    prize: 85
+    questQueueNumber: 0
+    stepsNeeded: 13
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 105
+    type: 44
+    prize: 90
+    questQueueNumber: 0
+    stepsNeeded: 14
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 106
+    type: 44
+    prize: 100
+    questQueueNumber: 0
+    stepsNeeded: 16
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 107
+    type: 44
+    prize: 110
+    questQueueNumber: 0
+    stepsNeeded: 17
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 108
+    type: 44
+    prize: 120
+    questQueueNumber: 0
+    stepsNeeded: 18
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 109
+    type: 44
+    prize: 140
+    questQueueNumber: 0
+    stepsNeeded: 20
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 110
+    type: 44
+    prize: 150
+    questQueueNumber: 0
+    stepsNeeded: 21
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 111
+    type: 44
+    prize: 160
+    questQueueNumber: 0
+    stepsNeeded: 22
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 112
+    type: 15
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 5
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 113
+    type: 15
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 20
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 114
+    type: 15
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 30
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 115
+    type: 15
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 15
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 116
+    type: 15
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 200
+    claimAble: 0
+    paramatersInt: 
+    paramatersString: []
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  - id: 117
+    type: 9
+    prize: 0
+    questQueueNumber: 0
+    stepsNeeded: 30
+    claimAble: 0
+    paramatersInt: 
+    paramatersString:
+    - 
+    specialPrizes: {fileID: 0}
+    maxLevel: -1
+    currentLevel: 0
+  images:
+  - {fileID: 21300000, guid: 14ec135d8e0a4f4785a1271f1a99f9ed, type: 3}
+  - {fileID: 21300000, guid: 6227b9aa5dd24b7da836d958cec6e08e, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: bf2e58a3a89c44e29cd669e565a8ca04, type: 3}
+  - {fileID: 21300000, guid: f82dd85a93324247a0f1089785c1e3c5, type: 3}
+  - {fileID: 21300000, guid: d30c4ab4f23949b2ad147feafe94a889, type: 3}
+  - {fileID: 21300000, guid: 4654d7226d154a959a9e63c6ade4b2a2, type: 3}
+  - {fileID: 21300000, guid: 307b8ecbc8154aeda73f29f0047467d0, type: 3}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 1a7e7fbdaf624d3d8b07c6088392c021, type: 3}
+  - {fileID: 21300000, guid: 6d6a0cb050ae4f388ce31a8264fb4b9a, type: 3}
+  - {fileID: 21300000, guid: b9ae77234d6f4d8dac8c1b79e123655b, type: 3}
+  - {fileID: 21300000, guid: f8d9b2ed37a84265b29378b662be994f, type: 3}
+  - {fileID: 21300000, guid: d87f0a4b575d4fb48c770ddad3cca69d, type: 3}
+  - {fileID: 21300000, guid: 5f639bff70e7450186b2e9a8e5775f95, type: 3}
+  - {fileID: 21300000, guid: 52177826c5aa441592f234b28aca6f07, type: 3}
+  - {fileID: 21300000, guid: 7e6416accec2477bb1bcaf1147a827f6, type: 3}
+  - {fileID: 21300000, guid: b47b1584402d4e04b9b0ff27821066d1, type: 3}
+  - {fileID: 21300000, guid: 815f63641c2448fc9cfad16e040e5d72, type: 3}
+  - {fileID: 21300000, guid: cc1d9e4fecba4470874ec5b5566abc6a, type: 3}
+  - {fileID: 21300000, guid: a6847bbd1f1b48faac444bd2653d6695, type: 3}
+  - {fileID: 21300000, guid: 5d7432839f544676886bff8595ff27cf, type: 3}
+  - {fileID: 21300000, guid: 09e53082f92c411c8ad438b1bc90a488, type: 3}
+  - {fileID: 21300000, guid: d58e22b28c074ac7bf53443a3c4c6a33, type: 3}
+  - {fileID: 21300000, guid: 3f89476ff03c4ec08b1518a04a8b3b0a, type: 3}
+  - {fileID: 21300000, guid: b15d8a08f6d9443f96cd00ab862a8950, type: 3}
+  - {fileID: 21300000, guid: b15d8a08f6d9443f96cd00ab862a8950, type: 3}
+  - {fileID: 21300000, guid: b15d8a08f6d9443f96cd00ab862a8950, type: 3}
+  - {fileID: 21300000, guid: 22dc19f795f444b9877d9ae35f542985, type: 3}
+  - {fileID: 21300000, guid: 5e8810447f7044c5bf81b5d2256a5d4f, type: 3}
+  - {fileID: 21300000, guid: 6162490b1c3947bcb324a4fda6e1531a, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 22dc19f795f444b9877d9ae35f542985, type: 3}
+  - {fileID: 21300000, guid: 5e8810447f7044c5bf81b5d2256a5d4f, type: 3}
+  - {fileID: 21300000, guid: 6162490b1c3947bcb324a4fda6e1531a, type: 3}
+  - {fileID: 21300000, guid: 942db1d8723e42cdb7b0ea47358d4f20, type: 3}

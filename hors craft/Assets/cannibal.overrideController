@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: "cannibal"
+  m_Controller: {fileID: 9100000, guid: bf538ad26f5742659e142abf2c84350c, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 0fd383bd8cd8481d804b8a1cf9c91072, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5685eaa8730c4aec92c89327a0a935f4, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: e0148f77495c4175afd92ec3300430a6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c81d5472895e46978d016d08341c5d0a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8c3bdfabe8744c9c8fb78a5681fb6b5e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8c3bdfabe8744c9c8fb78a5681fb6b5e, type: 2}

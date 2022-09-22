@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1790914196471589248
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790914196421257257}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1790914196421257257
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790914196471589248}
+  - component: {fileID: 1790914198317083531}
+  - component: {fileID: 1790914198317083810}
+  m_Layer: 0
+  m_Name: "wagon_0EmptySpawner"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1790914198317083531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790914196421257257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1882d4374a43b4d542c02201df383e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  editorOnly: 1
+  renderCustomSprite: 0
+  useCustomSprite: 1
+  blockCategory: 3
+  rarityCategory: 1
+  priority: 0
+  isItSomeKindOfGrass: 0
+  VName: "wagon"
+  VMesh: {fileID: 0}
+  VColliderMesh: {fileID: 0}
+  VCustomMesh: 0
+  VCustomSides: 0
+  VTexture:
+  - {x: 0, y: 24}
+  VTransparency: 0
+  VColliderType: 0
+  VColliderHeight: 1
+  VMaterial: {fileID: 2100000, guid: f8cb3ddf5b3a485cadb1e1881e3ead34, type: 2}
+  VRotation: 1
+  isMob: 0
+  isometricPlacment: 0
+  rotateDuringRender: 0
+  vTextureNames: []
+  voxelSprite: {fileID: 21300000, guid: 1d080fbeb46d43e7ad068aa0e5e2d47b, type: 3}
+  isThatFlower: 0
+  moveUvsByVTexture: 0
+  isPlacingInWater: 0
+  index: 823
+  hasStartBehaviour: 1
+  canRotate: 0
+  materialName: "xcraft.common_SheetCutoff"
+--- !u!114 &1790914198317083810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790914196421257257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b4a8c8b41d25e2eaea96cc811f4dfc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPositionOffset: {x: 0, y: 0, z: 0}
+  prefabToSpawn: {fileID: 1790914196421260060, guid: 3c1ba6011cb5f449d99b481f56739a5a, type: 2}

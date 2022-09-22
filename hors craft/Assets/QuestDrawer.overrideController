@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: "QuestDrawer"
+  m_Controller: {fileID: 9100000, guid: 6862a10f84704711aafa51bbc869982f, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: af24e88cce854654a9737b69fae1b05e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c469e5a50fe84c19a8d7d770d6923c3b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4d1b06f11aa44ee0acb3d22ce752b5a9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 353b6acffbb54dc69c9491ab540a8b26, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4465deb7db7b48f28ac95cf6f8ea8ab8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 38ad2e237d1a40a2bb1628ec87ff610a, type: 2}

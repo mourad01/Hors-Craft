@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Not Dealing Damage
+  - Not An Obstacle For Simple AI
+  - Panel
+  - Canvas
+  - DigButton
+  - AddButton
+  - MenuButton
+  - GameplayCanvas
+  - waterTrigger
+  - UBChunk
+  - Sun
+  - analogStick
+  - TrainCollider
+  - Vehicle
+  - Camera
+  - DontDestroyOnRebild
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Car
+  - Visible Only For Player Car
+  - Invisible For Camera
+  - Player Car
+  - Car Falling Into Hole
+  - Hole
+  - Top Bar
+  - PlayerHand
+  - Mobs
+  - NoClipMode
+  - Doors
+  - Collectible
+  - IgnorePlayer
+  - ClothesPreview
+  - ChangeClothes
+  - DanceArea
+  - TrainCollider
+  - PersistentObject
+  - EnemyShootTarget
+  - 
+  - Vehicle
+  - ParticleFishes
+  - Terrain
+  - 
+  m_SortingLayers:
+  - name: "Default"
+    uniqueID: 0
+    locked: 0

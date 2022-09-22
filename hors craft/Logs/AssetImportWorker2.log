@@ -1,0 +1,411 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 22000.856; Version 2009; 64bit' Language: 'en' Physical Memory: 8078 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Mourad/Desktop/hors craft
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+64509
+Successfully changed project path to: C:/Users/Mourad/Desktop/hors craft
+C:/Users/Mourad/Desktop/hors craft
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 117.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Mourad/Desktop/hors craft/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
+    Vendor:   
+    VRAM:     4039 MB
+    Driver:   30.0.101.1340
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001628 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 119.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.613 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2613ms)
+		BeginReloadAssembly (64ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (611ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (197ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (285ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (119ms)
+				BeforeProcessingInitializeOnLoad (24ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010934 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.279 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6302ms)
+		BeginReloadAssembly (216ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (5993ms)
+			LoadAssemblies (4529ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (612ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (144ms)
+			SetupLoadedEditorAssemblies (523ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (393ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 2.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3977 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.2 MB.
+System memory in use after: 134.4 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 4406.
+Total: 5.908300 ms (FindLiveObjects: 1.099200 ms CreateObjectMapping: 0.486100 ms MarkObjects: 4.212000 ms  DeleteObjects: 0.108500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Meshs/Unicorn.asset
+  artifactKey: Guid(7d6b4405bb7f4273be32ab996bc25fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshs/Unicorn.asset using Guid(7d6b4405bb7f4273be32ab996bc25fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e52908a7b807efc535d60854b27ef12') in 0.212992 seconds 
+  Import took 0.225060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001827 seconds.
+  path: Assets/Materials/Unicorn.mat
+  artifactKey: Guid(ee728ccea118416b99278496a7b7ea85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Unicorn.mat using Guid(ee728ccea118416b99278496a7b7ea85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33b842f280c9d66c392a3740f0635d6') in 0.105008 seconds 
+  Import took 0.115455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001141 seconds.
+  path: Assets/MonoBehaviour/blocksUnlockCommonInEpic.asset
+  artifactKey: Guid(0b03543ad33f4534921df307ec171495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonoBehaviour/blocksUnlockCommonInEpic.asset using Guid(0b03543ad33f4534921df307ec171495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2e1094af598d6432528afefd6f3f75') in 0.030820 seconds 
+  Import took 0.041044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000960 seconds.
+  path: Assets/Scripts/Uniblocks
+  artifactKey: Guid(f8b2d72891f3db649b6a179a5660a6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Uniblocks using Guid(f8b2d72891f3db649b6a179a5660a6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020b3b101eaf490a18910079a4d30f9b') in 0.030925 seconds 
+  Import took 0.046043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000939 seconds.
+  path: Assets/MonoBehaviour/blocksUnlockCommonInLegendary.asset
+  artifactKey: Guid(535d8ba4012342758026629b8b762dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonoBehaviour/blocksUnlockCommonInLegendary.asset using Guid(535d8ba4012342758026629b8b762dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384d63218c8cc9fa0ed2bbed2ebfa32e') in 0.031110 seconds 
+  Import took 0.044099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003568 seconds.
+  path: Assets/Sprites/uni button_d1.png
+  artifactKey: Guid(477efbdee45c4ddd9c123e8faaa3bf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/uni button_d1.png using Guid(477efbdee45c4ddd9c123e8faaa3bf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c88ef51bc788bdfcaae55671f81ae4') in 0.170864 seconds 
+  Import took 0.180496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001199 seconds.
+  path: Assets/MonoBehaviour/blocksUnlockLegendaryInEpic.asset
+  artifactKey: Guid(572d9c72893a4862839dbea8fb03e70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonoBehaviour/blocksUnlockLegendaryInEpic.asset using Guid(572d9c72893a4862839dbea8fb03e70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa3c590d54307314e71ae2efb7abbdf') in 0.033245 seconds 
+  Import took 0.042122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000840 seconds.
+  path: Assets/MonoBehaviour/BlocksUnlimitedLegendary.asset
+  artifactKey: Guid(53e7741bb8524c80b0f89a47fd2e7f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonoBehaviour/BlocksUnlimitedLegendary.asset using Guid(53e7741bb8524c80b0f89a47fd2e7f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d2b5c679cb562f0b8397652ee813ba') in 0.037466 seconds 
+  Import took 0.052069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/MonoBehaviour/BlocksUnlimitedRare.asset
+  artifactKey: Guid(57f604d0e57649c1aef65cc26167d9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonoBehaviour/BlocksUnlimitedRare.asset using Guid(57f604d0e57649c1aef65cc26167d9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a021249989aa6d4826c300f596b3005') in 0.033878 seconds 
+  Import took 0.055915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001490 seconds.
+  path: Assets/Images/FlyingUnicornBlue.png
+  artifactKey: Guid(9d602cbd844b400d922d6ef0f8a34bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/FlyingUnicornBlue.png using Guid(9d602cbd844b400d922d6ef0f8a34bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781f73faa0cb6017125230cf7c06b757') in 0.077777 seconds 
+  Import took 0.097926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/MonoBehaviour/blocksUnlockRareInCommon.asset
+  artifactKey: Guid(cf5cfe7f4e5b4da490c4abf6a436237e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonoBehaviour/blocksUnlockRareInCommon.asset using Guid(cf5cfe7f4e5b4da490c4abf6a436237e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a38f04e20c360dd9d55e9970a0ff1f6') in 0.035379 seconds 
+  Import took 0.048359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000743 seconds.
+  path: Assets/Resources/ui/BackgroundOverlay.prefab
+  artifactKey: Guid(30de3a622598749b4901990c55ddfd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ui/BackgroundOverlay.prefab using Guid(30de3a622598749b4901990c55ddfd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6002c595b6ffcafee1c9de4e59455d7') in 0.051509 seconds 
+  Import took 0.062338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/MonoBehaviour/blocksUnlockRareInRare.asset
+  artifactKey: Guid(ee02d4d836a2462c8cb5e5dd4a90b43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonoBehaviour/blocksUnlockRareInRare.asset using Guid(ee02d4d836a2462c8cb5e5dd4a90b43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a21b31573cef594951813556213dcbb') in 1.136747 seconds 
+  Import took 1.156957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000785 seconds.
+  path: Assets/Sprites/uni window_d1.png
+  artifactKey: Guid(5d762715dadb498d8ff3c59a8a62ad31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/uni window_d1.png using Guid(5d762715dadb498d8ff3c59a8a62ad31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2adcf735920261484d7e13fa0535404') in 0.094765 seconds 
+  Import took 0.138638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001270 seconds.
+  path: Assets/Images/FlyingUnicornPurple.png
+  artifactKey: Guid(f0e32014b9414d7caad1ee290d836488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/FlyingUnicornPurple.png using Guid(f0e32014b9414d7caad1ee290d836488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7dc1993e2780aef9b0c7d25db93fccd') in 0.080929 seconds 
+  Import took 0.103560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001260 seconds.
+  path: Assets/Prefab/UnicornBlue.prefab
+  artifactKey: Guid(de811dd40065a2342b1f186cbb33dede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/UnicornBlue.prefab using Guid(de811dd40065a2342b1f186cbb33dede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3a15971c721b774a73ece454b3ba91') in 0.831635 seconds 
+  Import took 0.846350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004258 seconds.
+  path: Assets/Sprites/uni button.png
+  artifactKey: Guid(45e7d65f4870448cbce496f7714d2a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/uni button.png using Guid(45e7d65f4870448cbce496f7714d2a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b10275d51808c8278aedebbeb7487b') in 0.054603 seconds 
+  Import took 0.070664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000825 seconds.
+  path: Assets/Resources/ui/Background.prefab
+  artifactKey: Guid(2fc8a9f3c7821e34cbc14d2ccf98eea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ui/Background.prefab using Guid(2fc8a9f3c7821e34cbc14d2ccf98eea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e3577cd27a19cd46a6e44120020dc6') in 0.034742 seconds 
+  Import took 0.045380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001280 seconds.
+  path: Assets/Images/UnicornBlue.png
+  artifactKey: Guid(cde1d381013e4f3db829046eedfc0ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/UnicornBlue.png using Guid(cde1d381013e4f3db829046eedfc0ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643eb74c6b543cb51ca78c98f7619d7f') in 0.038778 seconds 
+  Import took 0.050261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Avatar/unicornAvatar.asset
+  artifactKey: Guid(8589242568ec4aa5ba74eb38ca58a3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatar/unicornAvatar.asset using Guid(8589242568ec4aa5ba74eb38ca58a3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a379555de3c1a6065fa3cfba380ffbc5') in 0.029593 seconds 
+  Import took 0.038306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000723 seconds.
+  path: Assets/MonoBehaviour/blocksUnlockRareInEpic.asset
+  artifactKey: Guid(d054d79c046445ed83c1438ff173186f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonoBehaviour/blocksUnlockRareInEpic.asset using Guid(d054d79c046445ed83c1438ff173186f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49f4ce5b95fa3cd2615c424c264b03b') in 0.025764 seconds 
+  Import took 0.041512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000659 seconds.
+  path: Assets/MonoBehaviour/blocksUnlockLegendaryInRare.asset
+  artifactKey: Guid(ea494b7553f34d77a6d6fec049efcd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonoBehaviour/blocksUnlockLegendaryInRare.asset using Guid(ea494b7553f34d77a6d6fec049efcd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6abd8ed95356a6c0133223a865eb9929') in 0.034702 seconds 
+  Import took 0.048643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000881 seconds.
+  path: Assets/MonoBehaviour/blocksUnlockRareInLegendary.asset
+  artifactKey: Guid(bd85771c6d8d45b2be39c2f047f698ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonoBehaviour/blocksUnlockRareInLegendary.asset using Guid(bd85771c6d8d45b2be39c2f047f698ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde10f51efedc448a8cb77371eee97da') in 0.038418 seconds 
+  Import took 0.055227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001094 seconds.
+  path: Assets/Resources/ui/BlackBackgroundOverlayForAds.prefab
+  artifactKey: Guid(33441cb03e98450479633f129a8e59a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ui/BlackBackgroundOverlayForAds.prefab using Guid(33441cb03e98450479633f129a8e59a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f72d2c0df836679ba6b2ec2e8b051c85') in 0.032599 seconds 
+  Import took 0.044955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/MonoBehaviour/blocksUnlockCommonInRare.asset
+  artifactKey: Guid(3da3175e7fd6423fa7c132c494f79985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonoBehaviour/blocksUnlockCommonInRare.asset using Guid(3da3175e7fd6423fa7c132c494f79985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19eb56854ed87bcde64cacd536903f80') in 0.029058 seconds 
+  Import took 0.039089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Images/FlyingUnicornPink.png
+  artifactKey: Guid(e4e5562d42f749b891492044146f5772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/FlyingUnicornPink.png using Guid(e4e5562d42f749b891492044146f5772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16e50ec72290b8630768f5c53739b5a') in 0.948507 seconds 
+  Import took 0.962182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003974 seconds.
+  path: Assets/MonoBehaviour/blocksUnlockLegendaryInLegendary.asset
+  artifactKey: Guid(6b0a5e942ed541d5aac00128032bd9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonoBehaviour/blocksUnlockLegendaryInLegendary.asset using Guid(6b0a5e942ed541d5aac00128032bd9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c924e12f62a3eeb8f0dc1062c446ef') in 0.046693 seconds 
+  Import took 0.082408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001270 seconds.
+  path: Assets/Sprites/uni_button_2.png
+  artifactKey: Guid(a1d3cd1a6b8d4bfc9033c5aa96ba18f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/uni_button_2.png using Guid(a1d3cd1a6b8d4bfc9033c5aa96ba18f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1434f0d64d56e3bd3e12af8029178dc2') in 0.127069 seconds 
+  Import took 0.154477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/MonoBehaviour/AchievementChestsFound.asset
+  artifactKey: Guid(6bf3424f4a844f7f96dfac751d5dc184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonoBehaviour/AchievementChestsFound.asset using Guid(6bf3424f4a844f7f96dfac751d5dc184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84e2ce2180845056d6130eb75c865d0') in 0.094912 seconds 
+  Import took 0.155082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024063 seconds.
+  path: Assets/MonoBehaviour/blocksUnlockCommonInCommon.asset
+  artifactKey: Guid(64687a2fdf364a30b8932c40acd1ad07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonoBehaviour/blocksUnlockCommonInCommon.asset using Guid(64687a2fdf364a30b8932c40acd1ad07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b52e02e25abad3de66ba3922178fdbb') in 0.044696 seconds 
+  Import took 0.138008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037344 seconds.
+  path: Assets/MonoBehaviour/blocksUnlockLegendaryInCommon.asset
+  artifactKey: Guid(b15d3bdf8c8a470f896ee05f8638f79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonoBehaviour/blocksUnlockLegendaryInCommon.asset using Guid(b15d3bdf8c8a470f896ee05f8638f79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc76f6ebdc6df0ed7ebae8d7510bdfab') in 0.448776 seconds 
+  Import took 0.562793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001078 seconds.
+  path: Assets/MonoBehaviour/BlocksUnlimitedCommon.asset
+  artifactKey: Guid(ee32c0c7d11c400583b839633ec760c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonoBehaviour/BlocksUnlimitedCommon.asset using Guid(ee32c0c7d11c400583b839633ec760c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fac67d6bd92b330259ae40a468a5c5') in 0.216260 seconds 
+  Import took 0.260901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001055 seconds.
+  path: Assets/Sprites/uni_button_2_d1.png
+  artifactKey: Guid(c0aa57a56cd5462c8ec41d68f0aa6d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/uni_button_2_d1.png using Guid(c0aa57a56cd5462c8ec41d68f0aa6d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a684b446d984e52389271a778e45f1e') in 0.092454 seconds 
+  Import took 0.108256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Sprites/uni textbox.png
+  artifactKey: Guid(b81dfab2511e4441b0e64098c19b476d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/uni textbox.png using Guid(b81dfab2511e4441b0e64098c19b476d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8caed3ee6241813d6052e5f5cb5300e6') in 0.066051 seconds 
+  Import took 0.080221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000785 seconds.
+  path: Assets/Sprites/uni window.png
+  artifactKey: Guid(427fb968f2704967b4fc1f50f34885cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/uni window.png using Guid(427fb968f2704967b4fc1f50f34885cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02653933779123520129318800aa6615') in 0.051441 seconds 
+  Import took 0.062876 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

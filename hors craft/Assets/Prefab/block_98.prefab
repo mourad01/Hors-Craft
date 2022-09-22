@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1790914196471589228
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790914196421257237}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1790914196421257237
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790914196471589228}
+  - component: {fileID: 1790914198317083511}
+  - component: {fileID: 1790914198317083841}
+  m_Layer: 0
+  m_Name: "block_98"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1790914198317083511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790914196421257237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1882d4374a43b4d542c02201df383e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  editorOnly: 0
+  renderCustomSprite: 0
+  useCustomSprite: 0
+  blockCategory: 1
+  rarityCategory: 0
+  priority: 58
+  isItSomeKindOfGrass: 0
+  VName: "pumpkin_face_on"
+  VMesh: {fileID: 0}
+  VColliderMesh: {fileID: 0}
+  VCustomMesh: 0
+  VCustomSides: 1
+  VTexture:
+  - {x: 18, y: 29}
+  - {x: 18, y: 29}
+  - {x: 19, y: 31}
+  - {x: 19, y: 31}
+  - {x: 19, y: 31}
+  - {x: 17, y: 29}
+  VTransparency: 0
+  VColliderType: 0
+  VColliderHeight: 1
+  VMaterial: {fileID: 2100000, guid: a6fcf11bc6aa45cbaa86b99d2b985e88, type: 2}
+  VRotation: 1
+  isMob: 0
+  isometricPlacment: 0
+  rotateDuringRender: 0
+  vTextureNames: []
+  voxelSprite: {fileID: 0}
+  isThatFlower: 0
+  moveUvsByVTexture: 0
+  isPlacingInWater: 0
+  index: 87
+  hasStartBehaviour: 1
+  canRotate: 1
+  materialName: "xcraft.common_SheetAlpha"
+--- !u!114 &1790914198317083841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790914196421257237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cfe87c028ef97903baf64b5f1df0635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabToSpawn: {fileID: 1790914196421257369, guid: d978cb81164174a51873df4101fc9be4, type: 2}
+  setRotation: 0
+  eulerRotation: {x: 0, y: 0, z: 0}
+  prefabInstance: {fileID: 0}
+  placeOnWaterSurface: 0
+  voxelToSwitch: {fileID: 1790914196421257238, guid: adaf2938f8834c54e96e6f6c978d758d, type: 2}

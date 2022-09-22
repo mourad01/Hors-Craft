@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1790914196471589196
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790914196421257205}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1790914196421257205
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790914196471589196}
+  - component: {fileID: 1790914198317083479}
+  - component: {fileID: 1790914198317083301}
+  m_Layer: 0
+  m_Name: "block_65"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1790914198317083301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790914196421257205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2ce79b6a6c6fe2d941c967dbac2bce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1790914198317083479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790914196421257205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1882d4374a43b4d542c02201df383e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  editorOnly: 0
+  renderCustomSprite: 0
+  useCustomSprite: 0
+  blockCategory: 1
+  rarityCategory: 0
+  priority: 88
+  isItSomeKindOfGrass: 0
+  VName: "hardened_clay_pink"
+  VMesh: {fileID: 0}
+  VColliderMesh: {fileID: 0}
+  VCustomMesh: 0
+  VCustomSides: 0
+  VTexture:
+  - {x: 7, y: 20}
+  VTransparency: 0
+  VColliderType: 0
+  VColliderHeight: 1
+  VMaterial: {fileID: 2100000, guid: f2f023dfe2b3447bbbe824b90f3fb021, type: 2}
+  VRotation: 0
+  isMob: 0
+  isometricPlacment: 0
+  rotateDuringRender: 0
+  vTextureNames: []
+  voxelSprite: {fileID: 0}
+  isThatFlower: 0
+  moveUvsByVTexture: 0
+  isPlacingInWater: 0
+  index: 54
+  hasStartBehaviour: 0
+  canRotate: 0
+  materialName: "xcraft.common_Sheet"
